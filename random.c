@@ -20,6 +20,7 @@ f(i)
 	} else {
 		printf("Wrong! Answer is %i.\n", ans);
 	}
+	return f(i + 1);
 }
 
 main()
